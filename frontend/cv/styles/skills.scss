@@ -1,0 +1,29 @@
+@import '../../../shared/styles/colors.scss';
+
+.Main{
+    width:50%;
+    display: left;
+    justify-content: center;
+    align-items: left;
+    .Card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #F6BD60;
+        width: 50%;
+        height: 30%;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 5px rgba($color: #000000, $alpha: .6);
+        p{
+            display: list-item;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-height: 13%;
+            width: 33%;
+
+        }
+
+    }
+}
