@@ -1,4 +1,3 @@
-@import '../../../shared/styles/colors.scss';
 .MainContainer{
     background-color: #84A59D;
     position: absolute;
@@ -6,26 +5,13 @@
     left: 0;
     height: 100vh;
     width: 100%;
-    
-}
-.HeaderContainer{
-    background-color: #F5CAC3;
-    height: 17%;
     display: flex;
-    justify-content: space-between;
-    box-shadow: 0.1px 5px rgba($color: #000000, $alpha: .6);
-
-    .HeadItem{
+    flex-direction: column;
+    overflow: hidden;
+    .BodyParent{
+        height: 83%;
         display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: "Arial", sans-serif;
-        font-size: 18px;
-        width: 25%;
-
-        img{
-            height: 80%;
-            border-radius: 50px;
-        }
+        justify-content: space-around;
     }
+    
 }

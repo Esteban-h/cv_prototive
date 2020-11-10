@@ -1,8 +1,9 @@
-@import '../../../shared/styles/colors.scss';
 .Main{
-    height: 83%; 
-    display: center;
-    justify-content: center;
+    height: 100%;
+    width: 75%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
     overflow-y: scroll;
     &::-webkit-scrollbar {
@@ -14,10 +15,35 @@
         justify-content: space-between;
         align-items: center;
         background-color: #FFB5A7;
-        width: 50%;
+        width: 90%;
         height: 30%;
         border-radius: 10px;
         box-shadow: 5px 5px 5px 5px rgba($color: #000000, $alpha: .6);
+
+    }
+    .ExpContainer{
+        width: 90%;
+        height: 65%;
+        
+        background-color: #FFB5A7;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 5px rgba($color: #000000, $alpha: .6);
+
+
+    }
+    .TitleContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .TextContainer{
+        display: flex;
+        flex-flow: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
 
     }
 }
